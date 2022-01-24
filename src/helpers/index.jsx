@@ -12,6 +12,5 @@ export const formateDate = date => {
         day: '2-digit'
     }
     const data = newDate.toLocaleDateString('es-ES', options)
-    console.log(data)
     return data
 }
